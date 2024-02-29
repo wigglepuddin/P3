@@ -1,7 +1,7 @@
 // Education.js
 
 import React, { useState } from "react";
-import AB from "../../rexxreact/src/bgimg/school.jpg";
+import AB from "./bgimg/school.jpg";
 import olpaImage from "./bgimg/olpa.png";
 import collegeImage from "./bgimg/ncf.jpg";
 import Typewriter from "typewriter-effect";
