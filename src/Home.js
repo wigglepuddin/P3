@@ -2,7 +2,7 @@ import React, { useState,} from "react";
 import Typewriter from "typewriter-effect";
 import { Link } from 'react-router-dom';
 import "./Styles/home.css";
-import bgHome from "../../rexxreact/src/bgimg/redbull2.jpg";
+import bgHome from "./bgimg/redbull2.jpg";
 import wdogs from "../src/bgimg/logo.jpg";
 import Image from 'react-bootstrap/Image';
 import 'animate.css';
