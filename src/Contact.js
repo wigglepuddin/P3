@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaEnvelope, FaPhone, FaFacebookF, FaTiktok, FaInstagram } from 'react-icons/fa';
 import Typewriter from "typewriter-effect";
-import bgContact from "../../rexxreact/src/bgimg/redbull2.jpg";
+import bgContact from "./bgimg/redbull2.jpg";
 
 const Contact = () => {
   const pageBackgroundStyle = {
