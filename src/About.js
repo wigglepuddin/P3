@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import videoBG from "../../rexxreact/src/bgimg/VidBG.mp4";
+import videoBG from "../../rexxreact/src/bgimg/redbull2.jpg";
 import "./Styles/about.css";
 import mySelf from "./bgimg/profile.jpg";
 import yuto from "./bgimg/yuto.jpg"; 
