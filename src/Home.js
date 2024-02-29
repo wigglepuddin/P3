@@ -7,7 +7,6 @@ import wdogs from "../src/bgimg/logo.jpg";
 import Image from 'react-bootstrap/Image';
 import 'animate.css';
 
-
 const Home = () => {
   const [state] = useState({
     title: "Welcome to my Homepage!",
@@ -29,15 +28,16 @@ const Home = () => {
     left: 0,
     zIndex: -1,
     WebkitBackdropFilter: 'blur(5px)', 
-    backdropFilter: 'blur(5px)',  
-  };
-  
-
-  const contentStyle = {
+    backdropFilter: 'blur(5px)', 
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'left',
     justifyContent: 'left',
+    color: 'white',
+    textAlign: 'left',
+  };
+  
+  const contentStyle = {
     width: '80%',
     maxWidth: '2000px',
     padding: '0 20px',
@@ -46,8 +46,6 @@ const Home = () => {
     marginTop: '100px',
     position: 'relative',
     zIndex: 1,
-    color: 'white',
-    textAlign: 'left',
   };
 
   const imageContainerStyle = {
